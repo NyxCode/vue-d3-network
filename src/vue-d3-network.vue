@@ -406,9 +406,6 @@ export default {
     height 100%
     margin 0
 
-  .net-svg
-    // fill: white // background color to export as image
-
   .node
     stroke alpha($dark, 0.7)
     stroke-width 3px
@@ -426,10 +423,6 @@ export default {
 
   .node, .link
     stroke-linecap round
-
-    &:hover
-      stroke $warn
-      stroke-width 5px
 
   .link.selected
     stroke alpha($color2, 0.6)
